@@ -9,7 +9,7 @@ Ragnar is a hunter
 | **Name** | Ragnar D'rjold  |
 | **Race** | Human  |
 | **Class** | Ranger |
-| **Level** | 1  |
+| **Level** | 2  |
 | **Age** | 25 |
 | **Alignment** | Chaotic Good | 
 | **Speed**  | 30 |
@@ -17,9 +17,9 @@ Ragnar is a hunter
 
 ### Hit Points
 
-**Hit Points:** 13
+**Hit Points:** 34
 
-**HP Current:** 13
+**HP Current:** 34
 
 
 ### Stats
@@ -52,13 +52,13 @@ Proficient in: stealth, survival, perception
 | **Investigation**     |    | int | proficient, Phlan rule doubled|
 | **Medicine**          |    | wis    |  |
 | **Nature**            |    | int    | |
-| **Perception**        | +3   | wis +1   | |
+| **Perception**        | +3   |  +1 wis  | |
 | **Performance**       |      | cha    | |
 | **Persuasion**        |      | cha | proficient|
 | **Religion**          |      | int    |    |
 | **Sleight of Hand**   |      | dex | proficient, expertise doubles|
-| **Stealth**           | +6   | dex | proficient | 
-| **Survival**          | +3   | wis +1    |    |
+| **Stealth**           | +3   | +3  dex | proficient | 
+| **Survival**          | +3   |  +1 wis    |    |
 
 
 ### Combat-Related Special Abilities
@@ -89,13 +89,30 @@ Proficient in: stealth, survival, perception
 Armor:
 scale mail: 16   AC 16
 
-To hit:
-d20 +4 (dex) +2 (proficiency)
+# To Hit
+shortsword:  d20 +4 (dex) +2 (proficiency)                              = d20 + 6
+bow:         d20 +4 (dex) +2 (proficiency) + 2 (archery fighting style) = d20 + 8
 
-Damage: wpn + dex-mod
+
+# Damage: wpn + dex-mod
 shortsword:   d6  +4 (piercing)
 longbow:      d8  +4 (piercing)
 
 
-Spell save dc: 8 + spellcasting ability modifier + prof bonus + special modifiers
+# Spell save dc: 8 + spellcasting ability modifier + prof bonus + special modifiers
 8 + 1 + 2  = 11
+
+
+# Spell attack modifier:  proficiency bonus + wisdom modifier
+1 + 2 = 3
+
+Spells: (3 first level slots)
+
+Hunter's Mark
+
+Ensnaring Strike
+Casting time: 1 bonus action
+Duration:      concentration, up to a min
+Effect:   strength saving throw or restrained by vines
+          1d6 piercing damage at beginning of turn
+          can use action to make a strengh check, if successful, free

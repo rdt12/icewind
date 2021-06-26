@@ -39,3 +39,8 @@ First level:  10 + con
 
 
 ### Advancement
+Level 2: +6hp  + 3 = 9
+Fighting style: Archery
+2 first level spells:
+
+Level 3: 9+3 = 12
