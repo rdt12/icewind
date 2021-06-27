@@ -17,9 +17,9 @@ Ragnar is a hunter
 
 ### Hit Points
 
-**Hit Points:** 34
+**Hit Points:** 54
 
-**HP Current:** 34
+**HP Current:** 39
 
 
 ### Stats
@@ -27,10 +27,10 @@ Ragnar is a hunter
 | Stat | Value | Mod  |
 |:-----|:------|:----:|
 | *Str* | 17   | +3   |
-| *Dex* | 19   | +4   |
+| *Dex* | 20   | +5   |
 | *Con* | 16   | +3   |
 | *Int* | 13   | +1   |
-| *Wis* | 12   | +1   |
+| *Wis* | 13   | +2   |
 | *Cha* | 14   | +2   |
 
 
@@ -90,13 +90,14 @@ Armor:
 scale mail: 16   AC 16
 
 # To Hit
-shortsword:  d20 +4 (dex) +2 (proficiency)                              = d20 + 6
-bow:         d20 +4 (dex) +2 (proficiency) + 2 (archery fighting style) = d20 + 8
-
+shortsword:  d20 +5(dex) +2 (proficiency)                              =  d20 + 7
+bow:         d20 +5 (dex) +2 (proficiency) + 2 (archery fighting style) = d20 + 9
 
 # Damage: wpn + dex-mod
 shortsword:   d6  +4 (piercing)
-longbow:      d8  +4 (piercing)
+longbow:      d8  +5 (piercing)
+
+Once per turn:  +1d8 if target is below max hp.
 
 
 # Spell save dc: 8 + spellcasting ability modifier + prof bonus + special modifiers

@@ -17,3 +17,6 @@ center - long hallway, large chamber, something moving
 
 left - steel cage, two humans
 
+
+Nomads around east haven
+

@@ -43,4 +43,9 @@ Level 2: +6hp  + 3 = 9
 Fighting style: Archery
 2 first level spells:
 
-Level 3: 9+3 = 12
+Level 3:+8hp + 3 = 11
+3 first level spells
+Colossus slayer +1d8  damage to enemies below max hp.
+
+Level 4: +6hp + 3 = 9
+increase one ability score by 2
